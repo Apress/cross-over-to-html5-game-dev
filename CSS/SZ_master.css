@@ -1,0 +1,87 @@
+html {
+
+      height: 100%;
+
+      background: url(../html_web/webBG.jpg); background-size:cover;    }
+
+
+
+body {
+
+       padding: 0 0 0 0;
+    
+       margin: 0;   
+       user-select: none; 
+       cursor: crosshair;  
+     }
+img  { 
+       max-width: 100%; 
+       height: 100%;  
+       user-drag: none; 
+       user-select: none;
+       -moz-user-select: none;
+       -webkit-user-drag: none;
+       -webkit-user-select: none;
+       -ms-user-select: none;
+     }
+#logo { 
+	position: absolute;    
+	z-index:9999;  
+        background: url(../html_web/logo.png); background-size:cover; 
+	pointer-events:none;
+} 
+#box1 { 
+	position: absolute;    
+	z-index:9998;  
+        background: url(../html_web/box.png); background-size:cover; 
+	pointer-events:none;
+} 
+#SZ_maincontent {
+	position: relative;   
+	overflow: hidden;
+} 
+#SZ0_0 {
+	position: absolute; 
+  	top: 0; 
+  	left: 0;  
+  	min-width: 100%;
+  	min-height: 100%; 
+      }
+ #SZ0_1 {
+	position: absolute; 
+  	bottom: 0; 
+  	right: 0;  
+        opacity:0;
+}
+ #SZ0_2 {
+	position: absolute; 
+  	top: 0; 
+  	left: 0;  
+        cursor: pointer; 
+        opacity:0;
+}
+ #SZ0_3 {
+	position: absolute; 
+  	top: 0; 
+  	right: 0;  
+        opacity:0;
+        background-size:cover;
+} 
+
+ #SZ0_4 {
+	position: absolute;   
+        cursor: pointer; 
+        background-size:cover;
+        opacity:0;
+}  
+ #textx {    
+	position: relative;
+	float: left;
+	top: 40%;
+	text-align:center; 
+	font-size: 4vmax;
+	font-weight: bolder;
+	color: white; 
+	font-family: "Arial Black";
+}
+ 
