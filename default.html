@@ -1,0 +1,30 @@
+<html>
+ <head> 
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="sounds/jquery.playSound.js"></script>
+  <script src="js/SZ_main.js"></script>
+  <script src="js/SZ_setupContent.js"></script>
+  <script src="js/SZ_movement.js"></script>
+  <script src="js/ss.js"></script>
+  <script src="js/SZ_SS.js"></script>
+  <script src="js/SZ_touch.js"></script>
+  <script src="js/SZ_zombie_movement.js"></script>
+  <link href="css/SZ_master.css" rel="stylesheet" />
+ </head>
+ <body>
+  <div id="logo"></div>
+  <div id="box1"></div>
+  <div id="SZ_maincontent">
+   <img id="SZ0_0" src="images/SZ_background_image.jpg"  onmousemove="rotateGun(event)"  onmousedown="fireGun(event)" />
+   <div id="SZ0_1" ></div> 
+   <div id="SZ0_2" >
+    <img  src="images/SZ_reload.png"  onmousedown="reloadGun(event)" />
+   </div>
+   <div id="SZ0_3" style="background-image: url(images/SZ_score.png);">
+    <div id="textx">999</div>
+   </div>
+   <div id="SZ0_4" onmousedown="start_game();"/>  
+  </div>  
+ </body>
+</html>
